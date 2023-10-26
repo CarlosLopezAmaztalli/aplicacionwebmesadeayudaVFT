@@ -1,0 +1,17 @@
+{
+    "require": {
+        "mpdf/mpdf": "^6.1",
+        "dompdf/dompdf": "^2.0",
+        "guzzlehttp/guzzle": "~7.8",
+        "php-webdriver/webdriver": "*"
+    },
+     "autoload": {
+        "classmap": [
+            "clases/",
+            "publico/js"
+        ]
+     },
+    "require-dev": {
+        "phpunit/phpunit": "^10"
+    }
+}
